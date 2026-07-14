@@ -74,7 +74,7 @@ Planned:
 - Monte Carlo simulation
 - Additional portfolio statistics
 
-##License
+## License
 
 MIT License.
 
