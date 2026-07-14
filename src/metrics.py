@@ -47,7 +47,7 @@ def calculate_annual_volatility(
     return annual_volatility
 
 
-def calculate_covariance_matrix(
+def calculate_annual_covariance_matrix(
     returns: pd.DataFrame,
 ) -> pd.DataFrame:
 
@@ -61,11 +61,11 @@ def calculate_covariance_matrix(
             "Returns DataFrame cannot be empty."
         )
 
-    covariance_matrix = (
+    annual_covariance_matrix = (
         returns.cov() * TRADING_DAYS_PER_YEAR
     )
 
-    return covariance_matrix
+    return annual_covariance_matrix
 
 
 __all__ = [
