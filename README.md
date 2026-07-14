@@ -1,4 +1,8 @@
-#Portfolio Optimization
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Tests](https://img.shields.io/badge/tests-15%20passed-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+# Portfolio Optimization
 
 Portfolio Optimization is a Python project for constructing and optimizing investment 
 portfolios using Modern Portfolio Theory (MPT).
@@ -17,6 +21,7 @@ and finds the optimal portfolio.
 
 ## Project structure
 
+```text
 portfolio-optimization/
 │
 ├── notebooks/
@@ -36,12 +41,13 @@ portfolio-optimization/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Optimization pipeline and example
 
 Showed in Demo.ipynb
 
-## Technologies
+## Tech Stack
 
 - Python
 - pandas
@@ -49,6 +55,7 @@ Showed in Demo.ipynb
 - SciPy
 - aiohttp
 - pytest
+- Jupyter Notebook
 
 ## Roadmap
 
